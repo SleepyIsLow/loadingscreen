@@ -29,10 +29,7 @@ video {
 	background-position: center; 
 }
 
-#title {
-	font-size: 80px;
-	margin-left: 12px;
-}
+
 
 #title img {
 	margin-top: 18px;
@@ -48,7 +45,7 @@ video {
 	width: 100%;
 	top: 50%;
 	text-align: center;
-	margin-top: -25px;
+	margin-top: 200px;
 	font-size: 20px;
 	line-height: 18px;
 }

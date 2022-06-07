@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Attack of Clones";
+var l_serverName = "Knights of Republic";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,14 +50,14 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg",
-	"backgrounds/images/touhou04.png",
+	"backgrounds/images/kor.jpg",
+	"backgrounds/images/kor_st.jpg",
+	"backgrounds/images/kor_501st.jpg",
+	"backgrounds/images/kor_212th.jpg",
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
@@ -86,24 +86,27 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Star Wars - Clone Army Theme(MP3_160K).ogg", name: "Star Wars - Clone Army Theme"},
+	{ogg: "songs/iyh.ogg", name: "Zombie (In Your Head) - Edited by Darth Porg"},
+	{ogg: "songs/bfd.ogg", name: "Born for This - The Score - Edited Version"},
+	{ogg: "songs/fear.ogg", name: "Welcome to the Fire - Willyecho - Edited Version"},
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 25;
+var l_musicVolume = 1;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Viel Spaß auf Attack of Clones",
-"Danke fürs Spielen auf Attack of Clones!",
-"Schau doch gerne mal bei Mandalorian RP von OldTime Community vorbei!"
+"Viel Spaß auf Knights of Republic",
+"Gute Soldaten Befolgen Befehle!",
+"Halte dich bitte an die Server Regeln!",
+"Etwas Geduld, Gleich kannst du spielen!"
 ];
 
 /*Random message order?*/
