@@ -54,6 +54,8 @@ var l_bgImages = [
 	"backgrounds/images/kor_st.jpg",
 	"backgrounds/images/kor_501st.jpg",
 	"backgrounds/images/kor_212th.jpg",
+	"backgrounds/images/kor_all.jpg",
+	"backgrounds/images/kor_helmet.jpg",
 ];
 
 /*Random background images order?*/
@@ -92,7 +94,7 @@ var l_musicPlaylist = [
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
