@@ -50,7 +50,6 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/kor.jpg",
 	"backgrounds/images/kor_st.jpg",
 	"backgrounds/images/kor_501st.jpg",
 	"backgrounds/images/kor_212th.jpg",
@@ -64,7 +63,7 @@ var l_bgImagesRandom = false;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 1250;
 
 /*(Image-background only)
 Image background fade velocity
