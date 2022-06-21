@@ -50,6 +50,7 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
+	"backgrounds/images/kor.jpg",
 	"backgrounds/images/korhelmet.jpg",
 	"backgrounds/images/kor_st.jpg",
 	"backgrounds/images/kor_501st.jpg",
